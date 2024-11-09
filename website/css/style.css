@@ -1,10 +1,16 @@
 header{
-    background-color: black;
+    background-color: rgb(150, 97, 235);
     color: white;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 10px;
 }
+
 .bordered-container{
     border: 1px solid black;
     padding: 10px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 10px;
 }
 #footer
 {
@@ -12,4 +18,13 @@ header{
     border: 2px solid black;
     border-radius: 10px;
     padding: 5px 0px 5px 20px;
+    margin: 20px 0px 0px 0px
+}
+#logo{
+    width: 100px;
+    padding: 5px;
+
+}
+#logo img{
+    width:100%
 }
