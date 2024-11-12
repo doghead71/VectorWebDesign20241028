@@ -1,8 +1,12 @@
 header{
     background-color: #777777;
     color: white;
-    padding-bottom: 5px;
+    /*padding-bottom: 5px;*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
+
 .bordered-container{
     border:1px solid #777;
     padding: 10px;
@@ -19,19 +23,37 @@ header{
 }
 #logo{
     width: 200px;
-    padding: 5px;
+    padding: 15px;
+   
 }
 #logo img{
     width: 100%;
 }
 nav ul{
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
 }
 nav ul li a{
     text-decoration: none;
     color: white;
+    display: inline-block;
+    padding: 24px 18px;
 }
 footer a{
     text-decoration: none;
     color:antiquewhite;
+}
+
+nav ul li a.active{
+    background-color: blue;
+    color:white;
+    
+}
+
+nav ul li a:hover{
+    background-color: #494949;
+    color: rgb(236, 236, 236);
 }
