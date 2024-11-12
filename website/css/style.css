@@ -1,6 +1,8 @@
 header {
     background-color: #504a4a;
     color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 .bordered-container {
@@ -30,9 +32,26 @@ header {
 
 nav ul {
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
+    display: inline-block;
+    padding: 24px 18px
 }
+
+nav ul li a:hover {
+    background-color: #333;
+    color: white;
+}
+
+nav ul li a.active {
+    background-color: #0f0fb5;
+    color: white;
+}
+
