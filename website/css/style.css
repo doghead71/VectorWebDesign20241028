@@ -1,7 +1,7 @@
 header{
     background-color: #777777;
     color: white;
-    /*padding-bottom: 5px;*/
+    padding-bottom: 5px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -57,3 +57,48 @@ nav ul li a:hover{
     background-color: #494949;
     color: rgb(236, 236, 236);
 }
+
+/*Projects Page Details*/
+.container{
+    background: #f6f5f5;
+    display: inline-block;
+    justify-content: center;
+}
+.container h1{
+    text-align: center;
+}
+.product{
+    margin:15px;
+    padding: 10px;
+    display: inline-block;
+    justify-content: space-evenly;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+
+.product:hover{
+    background-color: #b2b1b1;
+    border-radius: 5px;
+}
+.product-image{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.product-detail a:link{
+    text-decoration: none;
+}
+.product-detail a:hover{
+    text-decoration:underline;
+    color: blue;
+}
+.product-detail{
+    text-align: center;
+    font-size: larger;
+}
+
