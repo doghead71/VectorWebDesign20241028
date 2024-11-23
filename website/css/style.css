@@ -113,6 +113,11 @@ nav ul li a:hover{
     background-color: #e2e2e2;
     border-radius: 15px;
 }
+
+.z-container:nth-child(even){
+    flex-direction: row-reverse;
+}
+
 .image{
     width: 45%;
     border-radius: 15px;
