@@ -131,3 +131,15 @@ nav ul li a:hover{
     color: #333;
 }
 
+@media screen and (max-width: 600px){
+    .z-container{
+         flex-direction: column;
+    }
+    .image{
+        width: 100px;
+    }
+    .z-text{
+        width: 100px;
+    }
+}
+
