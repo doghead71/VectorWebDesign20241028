@@ -153,3 +153,19 @@ nav ul li a:hover{
         margin-top: 20px;
     }   
 }
+@media screen and (max-width: 600px){
+    .z-container{
+        flex-direction: column;
+    }
+    .image{
+        width: 100%;
+    }
+    .z-text{
+        width: 100%;
+    }
+
+    .z-container:nth-child(even){
+        flex-direction: column;
+    }
+    
+}
