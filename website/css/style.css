@@ -150,12 +150,11 @@ nav ul li a:hover{
         align-items: center;
         justify-content: space-around;
         flex-direction: column;
+        width: 100%;
     }
     header nav{
         margin-top: 20px;
     }   
-}
-@media screen and (max-width: 600px){
     .z-container{
         flex-direction: column;
     }
@@ -169,5 +168,74 @@ nav ul li a:hover{
     .z-container:nth-child(even){
         flex-direction: column;
     }
+    .a-container{
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        margin: 5px;
+    }
+    .box{       
+        width: 100%;
+        padding: 10px 0px;
+    }
+    #welcome-div{
+        flex:2;
+        padding: 100px;
+    }
+    #register-div{
+        flex:1;
+        padding: 90px;
+    }
     
 }
+.a-container {
+    border: #333 solid 1px;
+    border-radius: 1px;
+    margin: 10px;
+    height:fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    background-color: #e2e2e2;
+}
+.box{
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.box p{
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+}
+#welcome-div{
+    flex:2;
+    padding: 100px;
+}
+#register-div{
+    flex:1;
+    padding: 90px;
+}
+.Jamaica_Picture{
+    width: 300px;
+    padding-top: 25px;
+}
+.input {
+    padding: 10px;
+    margin: 15px;
+    width: 50%;
+}
+#button{
+    border-radius: 5px;
+    background-color: #333;
+    color: #f6f5f5;
+}
+
