@@ -238,16 +238,16 @@ nav ul li a:hover{
         margin: 5px;
     }
     .box{       
-        width: 100%;
+        /* width: 100%; */
         padding: 10px 0px;
     }
     #welcome-div{
-        flex:2;
-        padding: 100px;
+        flex:1;
+        /* padding: 100px; */
     }
     #register-div{
         flex:1;
-        padding: 90px;
+        /* padding: 90px; */
     }
 
     #welcome-div{
