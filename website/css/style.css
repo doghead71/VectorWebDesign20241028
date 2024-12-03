@@ -8,6 +8,7 @@ header{
 }
 body{
     background-color: #f6f5f5;
+    box-sizing: border-box;
 }
 .bordered-container{
     border:1px solid #777;
@@ -144,50 +145,10 @@ nav ul li a:hover{
 }
 */
 
-@media screen and (max-width: 600px){
-    header{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-        width: 100%;
-    }
-    header nav{
-        margin-top: 20px;
-    }   
-    .z-container{
-        flex-direction: column;
-    }
-    .image{
-        width: 100%;
-    }
-    .z-text{
-        width: 100%;
-    }
-
-    .z-container:nth-child(even){
-        flex-direction: column;
-    }
-    .a-container{
-        flex-direction: column;
-        align-items: center;
-        width:100%;
-        margin: 5px;
-    }
-    .box{       
-        width: 100%;
-        padding: 10px 0px;
-    }
-    #welcome-div{
-        flex:2;
-        padding: 100px;
-    }
-    #register-div{
-        flex:1;
-        padding: 90px;
-    }
-    
+#welcome-div {
+    border-right: #333 solid 1px;
 }
+
 .a-container {
     border: #333 solid 1px;
     border-radius: 1px;
@@ -239,3 +200,59 @@ nav ul li a:hover{
     color: #f6f5f5;
 }
 
+@media screen and (max-width:890px) {
+    #welcome-div{
+        border-right: none;
+        border-bottom: #333 solid 1px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%;
+    }
+    header nav{
+        margin-top: 20px;
+    }   
+    .z-container{
+        flex-direction: column;
+    }
+    .image{
+        width: 100%;
+    }
+    .z-text{
+        width: 100%;
+    }
+
+    .z-container:nth-child(even){
+        flex-direction: column;
+    }
+    .a-container{
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        margin: 5px;
+    }
+    .box{       
+        /* width: 100%; */
+        padding: 10px 0px;
+    }
+    #welcome-div{
+        flex:1;
+        /* padding: 100px; */
+    }
+    #register-div{
+        flex:1;
+        /* padding: 90px; */
+    }
+
+    #welcome-div{
+        border-right: none;
+        border-bottom: #333 solid 1px;
+    }
+    
+}
