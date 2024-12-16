@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Examples for Teaching</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        button {
+            margin: 5px;
+            padding: 8px 12px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .output {
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f8f8f8;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Teaching Examples</h1>
+
+    <h2>1. Basic Operations</h2>
+    <p>Click the button to calculate 5 + 7:</p>
+    <button onclick="basicOperations()">Run Basic Operations</button>
+    <div class="output" id="output-basic"></div>
+
+    <h2>2. DOM Manipulation</h2>
+    <p>Click the button to change this text:</p>
+    <button onclick="changeText()">Change Text</button>
+    <p id="text-target">This text will change.</p>
+
+    <h2>3. Event Handling</h2>
+    <p>Move your mouse over the box to see an event in action:</p>
+    <div 
+        id="hover-box" 
+        style="width: 150px; height: 150px; background-color: lightblue;"
+        onmouseover="handleMouseOver()"
+        onmouseout="handleMouseOut()">
+        Hover over me!
+    </div>
+    <div class="output" id="output-event"></div>
+
+    <h2>4. Loops and Arrays</h2>
+    <p>Click the button to display an array of numbers:</p>
+    <button onclick="displayArray()">Display Array</button>
+    <div class="output" id="output-array"></div>
+
+    <h2>5. Functions</h2>
+    <p>Click the button to run a custom function:</p>
+    <button onclick="customFunction()">Run Function</button>
+    <div class="output" id="output-function"></div>
+
+    <!-- External JavaScript Files -->
+    <script src="./scipts/basic.js"></script>
+    <script src="dom.js"></script>
+    <script src="events.js"></script>
+    <script src="loops.js"></script>
+    <script src="functions.js"></script>
+</body>
+</html>
